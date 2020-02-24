@@ -12,7 +12,8 @@
           developers and large full scale applications become far more feasible all while keeping our code base clean
           and organized.</p>
         <p>For more on what Vue has to offer check out the documents at <a href="https://vuejs.org/">Vue.js</a></p>
-        <p>For a quick reference guide on Vue Syntax check out the cheat sheets at <a href="https://www.vuemastery.com/vue-cheat-sheet/">Vue
+        <p>For a quick reference guide on Vue Syntax check out the cheat sheets at <a
+            href="https://www.vuemastery.com/vue-cheat-sheet/">Vue
             Mastery</a></p>
       </div>
       <span class="border-bottom col-12 pt-3"></span>
@@ -60,7 +61,7 @@ like:
           <li class="list-group-item">
             <span class="challenge">Write a math equation that Vue can evaluate</span>
             <div class="answer">
-              {{<!--Your Code Here-->}}
+              {{10 * 8}}
             </div>
           </li>
         </ul>

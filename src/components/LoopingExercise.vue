@@ -9,23 +9,19 @@
                         object to put the value into our html.</p>
                     <p>Then use the index to print the players place in the collection.</p>
                     <!-- add the v-for to player-card -->
-                    <div class="player-card text-center">
-                        <h5> {{
-                            <!--code here--> }}</h5>
+                    <div class="player-card text-center" v-for="player in players" :key="number">
+                        <h5> {{"Player" }}</h5>
                         <div>
-                            <img class="img" src="" />
+                            <img class="img" src="this.players.photo" />
                         </div>
                         <div>
-                            <span>{{
-                                <!--code here-->}}</span>
+                            <span>{{this.players.name}}</span>
                         </div>
                         <div>
-                            <span>{{
-                                <!--code here--> }}</span>
+                            <span>{{this.players.number}}</span>
                         </div>
                         <div>
-                            <span>{{
-                                <!--code here--> }}</span>
+                            <span>{{this.players.position}}</span>
                         </div>
                     </div>
                 </div>
@@ -34,10 +30,8 @@
                     <p>Use the v-for directive to loop over the "blog" property on the comments data. In the curlies
                         inside of the template for each property on the object we want to print the key(property name)
                         and value contained at that key.</p>
-                    <div class="blog" v-for="(value, key) in blog">
-                        <p>{{
-                            <!--code here-->}}: {{
-                            <!--code here-->}}</p>
+                    <div class="blog" v-for="(title, description) in blog">
+                        <p>{{title}}: {{description}}</p>
                     </div>
                 </div>
             </div>
