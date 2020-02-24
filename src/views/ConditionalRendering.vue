@@ -9,20 +9,20 @@
                     value, or an expression that will evaluate to one.</p>
                 <pre>
                     <code class="language-html">
-                        &lt;div class="player-card" v-if="true"&gt;
-                            &lt;div&gt;
-                                &lt;img :src="player.photo" /&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.name}}&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.position}}&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.number}}&lt;/span&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
+                        <div class="player-card" v-if="true">
+                            <div>
+                                <img :src="player.photo" />
+                            </div>
+                            <div>
+                                <span>{{player.name}}</span>
+                            </div>
+                            <div>
+                                <span>{{player.position}}</span>
+                            </div>
+                            <div>
+                                <span>{{player.number}}</span>
+                            </div>
+                        </div>
                     </code>
                 </pre>
                 <p>We directly supplied a value of true to the v-if directive of the "player-card" element and so it
@@ -30,20 +30,20 @@
                 <h5>Using The v-if Directive With A Referenced Value</h5>
                 <pre>
                     <code class="language-html">
-                        &lt;div class="player-card" v-if="showPlayer"&gt;
-                            &lt;div&gt;
-                                &lt;img :src="player.photo" /&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.name}}&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.position}}&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.number}}&lt;/span&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
+                        <div class="player-card" v-if="showPlayer">
+                            <div>
+                                <img :src="player.photo" />
+                            </div>
+                            <div>
+                                <span>{{player.name}}</span>
+                            </div>
+                            <div>
+                                <span>{{player.position}}</span>
+                            </div>
+                            <div>
+                                <span>{{player.number}}</span>
+                            </div>
+                        </div>
                     </code>
                 </pre>
                 <pre>
@@ -70,18 +70,18 @@
                     look something like:</p>
                 <pre>
                     <code class="language-html">
-                        &lt;div v-if="num === 1"&gt;
-                        &lt;p&gt;The Number is 1.&lt;/p&gt;
-                        &lt;/div&gt;
-                        &lt;div v-else-if="num === 2"&gt;
-                        &lt;p&gt;The Number is 2.&lt;/p&gt;
-                        &lt;/div&gt;
-                        &lt;div v-else-if="num === 3"&gt;
-                        &lt;p&gt;The Number is 3.&lt;/p&gt;
-                        &lt;/div&gt;
-                        &lt;div v-else&gt;
-                        &lt;p&gt;The Number is not 1, 2, or 3.&lt;/p&gt;
-                        &lt;/div&gt;
+                        <div v-if="num === 1">
+                        <p>The Number is 1.</p>
+                        </div>
+                        <div v-else-if="num === 2">
+                        <p>The Number is 2.</p>
+                        </div>
+                        <div v-else-if="num === 3">
+                        <p>The Number is 3.</p>
+                        </div>
+                        <div v-else>
+                        <p>The Number is not 1, 2, or 3.</p>
+                        </div>
                     </code>
                 </pre>
                 <p>If the value of num is 1, we will get "The Number is 1." rendered to the screen. Using the v-else-if
@@ -98,20 +98,20 @@
                     javascript in the component.</p>
                 <pre>
                     <code class="language-html">
-                        &lt;div class="player-card" v-show="true"&gt;
-                            &lt;div&gt;
-                                &lt;img :src="player.photo" /&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.name}}&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.position}}&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;div&gt;
-                                &lt;span&gt;{{player.number}}&lt;/span&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
+                        <div class="player-card" v-show="true">
+                            <div>
+                                <img :src="player.photo" />
+                            </div>
+                            <div>
+                                <span>{{player.name}}</span>
+                            </div>
+                            <div>
+                                <span>{{player.position}}</span>
+                            </div>
+                            <div>
+                                <span>{{player.number}}</span>
+                            </div>
+                        </div>
                     </code>
                 </pre>
             </div>

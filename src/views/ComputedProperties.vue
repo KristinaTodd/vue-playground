@@ -8,10 +8,10 @@
                     to access the same computed value in several places in the template.</p>
                 <pre>
                     <code class="language-html">
-                        &lt;div class="reverse-message"&gt;
-                            &lt;p&gt;Original Message: {{val}}&lt;/p&gt;
-                            &lt;p&gt;Computed Reversed Message: {{val2}}&lt;/p&gt;
-                        &lt;/div&gt;
+                        <div class="reverse-message">
+                            <p>Original Message: {{val}}</p>
+                            <p>Computed Reversed Message: {{val2}}</p>
+                    </div>
                     </code>
                 </pre>
                 <pre>
